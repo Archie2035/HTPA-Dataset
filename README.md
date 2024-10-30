@@ -52,7 +52,7 @@ The feature data files (`tunnel_traffic.pickle` and `normal_traffic.pickle`) inc
 | DownBytes  | The total number of bytes received by the source from the destination during the flow. |
 | UpPackets  | The total number of packets sent from the source to the destination during the flow. |
 | DownPackets| The total number of packets received by the source from the destination during the flow. |
-| TcpRtt     | The round-trip time (second) of TCP packets during the three-way handshake. |
+| TCPRTT     | The round-trip time (second) of TCP packets during the three-way handshake. |
 
 ## Usage Instructions
 In past experiments, using a simple random sampling to split train and test data led to very high accuracy (around 0.99) for some baseline models like Random Forest. However, in real-world scenarios, models face greater challenges, including unknown data and concept drift. To better mimic open-world scenarios, we suggest using the following two data split strategies:
