@@ -7,12 +7,11 @@
 
 ## Table of Contents
 1. [Overview](#overview)
-2. [Dataset Structure](#dataset-structure)
-3. [Data Collection Methodology](#data-collection-methodology)
-4. [Privacy Considerations](#privacy-considerations)
-5. [Feature Descriptions](#feature-descriptions)
-6. [Usage Instructions](#usage-instructions)
-7. [Contact](#contact)
+2. [Data Collection Methodology](#data-collection-methodology)
+3. [Privacy Considerations](#privacy-considerations)
+4. [Feature Descriptions](#feature-descriptions)
+5. [Usage Instructions](#usage-instructions)
+6. [Contact](#contact)
 
 
 ## Overview
@@ -21,19 +20,6 @@ The HTPA dataset is designed for research and development in detecting HTTPS tun
 ### Key Features
 - HTTPS tunnel traffic, VPN.
 
-
-
-## Dataset Structure
-
-The HTPA dataset is provided as a compressed file with the following structure:
-
-```
-HTPA/
-├── tunnel_traffic.pickle 
-├── normal_traffic.pickle 
-├── load_data.py 
-└── splited_data/                                       
-```
 
 ## Data Collection Methodology
 
